@@ -7,12 +7,16 @@
 body {
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgb(16, 61, 165);
-    color: #ff99;
+    color: rgba(0, 44, 110, 0.729);
+    text-align: justify;
 }
 
-strong,
+strong {
+    color: #0b4cda;
+}
+
 h1,
 h2 {
     color: #ffffff;
@@ -26,19 +30,24 @@ h2 {
     align-content: center;
 
 }
-
+#hd{
+      color: #ff9900;
+}
 #title {
     position: relative;
     width: auto;
-    color: #ffffff;
+  
+    font-family: 'Luckiest Guy', cursive;
     border: solid 1px rgb(255, 255, 255);
     background-color: #0f6dbe9a;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-left: 10%;
     margin-top: 10px;
     margin-right: 10%;
     border-radius: 10px;
+    align-content: center;
+    justify-content: center;
 }
 
 .box-1 {
@@ -50,7 +59,7 @@ h2 {
 }
 
 #atribute_info {
-
+    text-align: justify;
     margin-top: 5%;
     margin-left: 5%;
     display: flex;
@@ -65,27 +74,19 @@ h2 {
 }
 
 #im {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 10%;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 #fig1 {
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    margin: top 15%;
-    ;
-    margin-left: 10%;
-    padding: 1px;
-    max-height: 197px;
-    max-width: 197px;
+   position: relative;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 10%;
 
-    border: 2px dotted rgb(255, 255, 255);
+   
 }
 
 figcaption {
@@ -97,6 +98,7 @@ figcaption {
     text-align: center;
     width: 100%;
     height: 10%;
+   
     font: italic smaller sans-serif;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 20%;
@@ -118,24 +120,24 @@ blockquote p {
     display: flex;
     flex-direction: column;
     font-family: 'Sofadi One', cursive;
-
+    font-weight: 500;
     border-radius: 8px;
     color: #fff;
 
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 blockquote ::before {
-    font-size: 5rem;
-    color: #bd1515;
+    font-size: 6rem;
+    color: #d7901d;
     content: '\201C';
 
     margin-left: -1%;
 }
 
 blockquote ::after {
-    font-size: 5rem;
-    color: #bc1818;
+    font-size: 6rem;
+    color: #d7901d;
     content: '\201D';
     align-self: flex-end;
     margin-top: -8%;
@@ -162,7 +164,7 @@ blockquote ::after {
 
 
 cite {
-    color: rgb(188, 24, 24);
+    color: #d7901d;
 }
 
 #abt {
@@ -172,6 +174,7 @@ cite {
     align-items: center;
     border: solid 1px #fff;
     border-radius: 15px;
+    background-color: #ffffff;
 }
 
 
@@ -315,14 +318,14 @@ li ::before {
 
 
 .fa {
-   
+
     padding: 5px;
     font-size: 30px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     text-decoration: none;
-    margin:5px 2px;
+    margin: 4px 2px;
     border-radius: 50%;
 }
 
@@ -342,7 +345,7 @@ li ::before {
 }
 
 .fa-instagram {
-    background: #bd0505;
+    background: #750606;
     color: white;
 }
 
@@ -350,8 +353,8 @@ li ::before {
     display: flex;
     flex-direction: row;
     background: linear-gradient(rgb(27, 31, 80), rgb(2, 14, 146));
-width: 100%;
-    
+    width: 100%;
+
     justify-content: center;
 }
 
@@ -391,7 +394,8 @@ width: 100%;
         width: 100%;
         margin: auto;
     }
-    .box-12{
+
+    .box-12 {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -405,4 +409,44 @@ width: 100%;
         margin: 0;
         padding: 0%;
     }
+}
+
+#proficon {
+    display: flex;
+  
+    height: 80px;
+    width: 80px;
+    background-color: #015a9ea9;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    align-self: flex-end;
+}
+
+#roundpic {
+    align-content: center;
+    justify-content: center;
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+
+transform: rotate(-8deg);
+}
+
+.txtbg {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.pt {
+    color: #fff;
+}
+.emoji{
+    font-weight: 200;
+    text-decoration: none;
+    font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+    font-size: 2.5rem;
+   
 }
