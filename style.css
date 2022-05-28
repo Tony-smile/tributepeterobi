@@ -1,7 +1,7 @@
 * {
     margin: 5px 5px;
     padding: 0px;
-    box-sizing: border-box;
+   
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     background-color: rgb(16, 61, 165);
     color: rgba(0, 44, 110, 0.729);
     text-align: justify;
+    width: 100%;
 }
 
 strong {
@@ -24,19 +25,21 @@ h2 {
 
 #main {
     width: 100%;
-
+    margin: 5px 5px;
     display: flex;
     flex-direction: column;
     align-content: center;
 
 }
-#hd{
-      color: #ff9900;
+
+#hd {
+    color: #ff9900;
 }
+
 #title {
     position: relative;
     width: auto;
-  
+
     font-family: 'Luckiest Guy', cursive;
     border: solid 1px rgb(255, 255, 255);
     background-color: #0f6dbe9a;
@@ -82,11 +85,11 @@ h2 {
 }
 
 #fig1 {
-   position: relative;
+    position: relative;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 10%;
 
-   
+
 }
 
 figcaption {
@@ -98,7 +101,7 @@ figcaption {
     text-align: center;
     width: 100%;
     height: 10%;
-   
+
     font: italic smaller sans-serif;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 20%;
@@ -210,8 +213,8 @@ cite {
 }
 
 #foo {
-    width: 100%;
-
+    width: 100vw;
+margin: 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -324,8 +327,9 @@ li ::before {
     width: 35px;
     height: 35px;
     text-align: center;
+   align-self: center;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 5px 2px;
     border-radius: 50%;
 }
 
@@ -403,17 +407,17 @@ li ::before {
     }
 
     #foo {
-
+        width: 100vw;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0%;
+        margin: 0px 0px;
+        padding: 0px 0px;
     }
 }
 
 #proficon {
     display: flex;
-  
+
     height: 80px;
     width: 80px;
     background-color: #015a9ea9;
@@ -432,7 +436,7 @@ li ::before {
     border-radius: 50%;
     border: solid 1px #ffffff;
 
-transform: rotate(-8deg);
+    transform: rotate(-8deg);
 }
 
 .txtbg {
@@ -443,10 +447,11 @@ transform: rotate(-8deg);
 .pt {
     color: #fff;
 }
-.emoji{
+
+.emoji {
     font-weight: 200;
     text-decoration: none;
     font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
     font-size: 2.5rem;
-   
+
 }
